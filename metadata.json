@@ -1,0 +1,13 @@
+{
+    "shell-version": [
+        "3.32",
+        "3.34",
+        "3.36"
+    ], 
+    "uuid": "virtualhider@zenwheel.com", 
+    "name": "Virtual network hider", 
+    "description": "Hide virtual network interfaces from the gnome system menu (i.e. Docker, VMware, VirtualBox interfaces).",
+    "version": "1",
+    "original-author": "zenwheel",
+    "url": "https://github.com/zenwheel/virtualhider"
+}
