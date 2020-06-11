@@ -62,6 +62,8 @@ var VirtualHider = class VirtualHider {
                 device.item.actor.visible = false;
             }
         }
+
+        this._scheduleDeviceUpdate(15000);
     }
 
     _checkDevices() {
@@ -92,12 +94,12 @@ var VirtualHider = class VirtualHider {
 
     _connectionChanged(client) {
         _l(`_connectionChanged`);
-        this._scheduleDeviceUpdate(250);
+        this._scheduleDeviceUpdate(500);
     }
 
     _devicesChanged(client, device) {
         _l(`_devicesChanged`);
-        this._scheduleDeviceUpdate(250);
+        this._scheduleDeviceUpdate(500);
     }
 
     destroy() {
